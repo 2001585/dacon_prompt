@@ -1,0 +1,1232 @@
+[
+  {
+    "name": "김경태_원본",
+    "length": 591,
+    "accuracy": 0.5652173913043478,
+    "correct": 26,
+    "total": 46,
+    "dacon_score": 0.6081131531793841,
+    "errors": [
+      {
+        "id": "SAMPLE_02",
+        "title": "美, 반도체 투자만 해도 稅혜택 韓, 설비투자만 '찔끔 감면'",
+        "actual": 0,
+        "predicted": 1
+      },
+      {
+        "id": "SAMPLE_03",
+        "title": "인공지능 개발의 심장…국가 AI 컴퓨팅센터 2년 내 문 연다",
+        "actual": 0,
+        "predicted": 1
+      },
+      {
+        "id": "SAMPLE_05",
+        "title": "로봇이 조립하고 AI가 검사…다품종 소량생산 최적 체계 구현",
+        "actual": 0,
+        "predicted": 1
+      },
+      {
+        "id": "SAMPLE_06",
+        "title": "멕시코 거점 韓 기업 한숨 돌렸지만…변동성 예의주시",
+        "actual": 0,
+        "predicted": 1
+      },
+      {
+        "id": "SAMPLE_10",
+        "title": "트럼프 \"조만간 EU에 25% 관세 부과\"",
+        "actual": 0,
+        "predicted": 1
+      }
+    ],
+    "detailed_results": [
+      {
+        "id": "SAMPLE_00",
+        "title": "현대차, 1월 美판매 15% 늘어…역대 최대",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_01",
+        "title": "삼성SDI, 헝가리 46파이 라인 추진…유럽 고객 타깃",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_02",
+        "title": "美, 반도체 투자만 해도 稅혜택 韓, 설비투자만 '찔끔 감면'",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_03",
+        "title": "인공지능 개발의 심장…국가 AI 컴퓨팅센터 2년 내 문 연다",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_04",
+        "title": "닛산 \"CEO 교체 준비\"…혼다 합병 재시동 촉각",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_05",
+        "title": "로봇이 조립하고 AI가 검사…다품종 소량생산 최적 체계 구현",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_06",
+        "title": "멕시코 거점 韓 기업 한숨 돌렸지만…변동성 예의주시",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_07",
+        "title": "올해 車 판매 1.9% 증가…저성장 기조 계속",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_08",
+        "title": "중국도 관세 즉각 맞불…광물수출 막고 美원유 10%P 추가관세",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_09",
+        "title": "현대차, 美 120만대 생산체제 구축…철강·부품·조립까지 현지서 해결",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_10",
+        "title": "트럼프 \"조만간 EU에 25% 관세 부과\"",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_11",
+        "title": "AI 사령관, 드디어 참전",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_12",
+        "title": "광주는 AI 기회의 땅…새 둥지 트는 기업들",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_13",
+        "title": "채비 전기차 충전소, 美 텍사스로 확대",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_14",
+        "title": "자율주행 등 첨단기술 확보 및 미래차 핵심부품 공급망 확충에 5천억 원 투입",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_15",
+        "title": "태양광 패키지 이어 배터리 공장도 함께…한화·LG \"UAM도 협력\"",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_16",
+        "title": "中 전기차 리서치 지속…가격인하 경쟁 치열",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_17",
+        "title": "올해 10대 제조업 투자 119조 전망…7% 증가",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_18",
+        "title": "패스워드 대신 인증키 발행…재사용 불가능 지문·안면 2차 인증…AI로 악성 트래픽 탐지",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_19",
+        "title": "트럼프 \"화성 개척\"... 우주기업株 날았다",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_20",
+        "title": "로봇군단 누비는 '긴박한 전장'…AI에 생사 결정권 맡길 각오됐습니까",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_21",
+        "title": "현대차 이대로 가면 中자율주행SW 써야할 수도",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_22",
+        "title": "'한국판 IRA' 조세특례제한법 개정안, 국회 본회의 통과",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_23",
+        "title": "한국앤컴퍼니, 한온시스템 인수…30대그룹 첫 진입",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_24",
+        "title": "車카메라 경쟁력 강화 세계 점유율 1위 도전",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_25",
+        "title": "코오롱인더, 300억 투자 베트남 타이어코드 증설",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_26",
+        "title": "한화·LG, 에너지 동맹…\"테슬라 잡자\"",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_27",
+        "title": "불법이민 추방·신재생 중단 … 행정명령 첫날부터 몰아친다",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_28",
+        "title": "현대차 싱크탱크 \"中BYD 한국 상륙, 절대로 경시해선 안돼\"",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_29",
+        "title": "K-방산 총출동…첨단 방공망 선보인다",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_30",
+        "title": "K9 누적 수출 13조원 돌파…항공기 엔진도 생산, K방산의 핵심으로",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_31",
+        "title": "AI로 車유리 손상 분석부터 견적까지…'유리픽스' 플랫폼 출시",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_32",
+        "title": "美-中 AI기술 격차, 3개월로 좁혀져",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_33",
+        "title": "한자연, 전동화 파워트레인 기술 동향·개발전략 공유",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_34",
+        "title": "LG엔솔, 美 델타와 주택용 ESS배터리 공급 협력",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_35",
+        "title": "현대차 인스터, 日서 첫 자체 보조금 지원",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_36",
+        "title": "트럼프 \"상호관세 연기 계획 없다\"",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_37",
+        "title": "美, 상호관세 2단계로 간다…\"최대 50% '관세 폭탄' 던진 뒤 협상\"",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_38",
+        "title": "정부, 오사카 엑스포에 韓 독립관 마련",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_39",
+        "title": "포티투닷, 화성에 자율주행 인프라 깐다",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_40",
+        "title": "AI 품은 융합로봇, 든든해요",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_41",
+        "title": "AI로 무장한 가성비… '대륙의 한수' 무차별 韓침공",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_42",
+        "title": "LG이노텍, 車두뇌 AP모듈 하반기 양산",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_43",
+        "title": "글로벌쿼드텍 EVCC, 국내 車 OEM 업체 공급",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_44",
+        "title": "기아 EV3 '2025 대한민국 올해의 차'에 등극",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_45",
+        "title": "韓 긍정적 인식 작용…낮은 관세율 기대감",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      }
+    ]
+  },
+  {
+    "name": "M12_축약스코어링",
+    "length": 189,
+    "accuracy": 0.5652173913043478,
+    "correct": 26,
+    "total": 46,
+    "dacon_score": 0.608695652173913,
+    "errors": [
+      {
+        "id": "SAMPLE_00",
+        "title": "현대차, 1월 美판매 15% 늘어…역대 최대",
+        "actual": 1,
+        "predicted": 0
+      },
+      {
+        "id": "SAMPLE_01",
+        "title": "삼성SDI, 헝가리 46파이 라인 추진…유럽 고객 타깃",
+        "actual": 1,
+        "predicted": 0
+      },
+      {
+        "id": "SAMPLE_04",
+        "title": "닛산 \"CEO 교체 준비\"…혼다 합병 재시동 촉각",
+        "actual": 1,
+        "predicted": 0
+      },
+      {
+        "id": "SAMPLE_07",
+        "title": "올해 車 판매 1.9% 증가…저성장 기조 계속",
+        "actual": 1,
+        "predicted": 0
+      },
+      {
+        "id": "SAMPLE_09",
+        "title": "현대차, 美 120만대 생산체제 구축…철강·부품·조립까지 현지서 해결",
+        "actual": 1,
+        "predicted": 0
+      }
+    ],
+    "detailed_results": [
+      {
+        "id": "SAMPLE_00",
+        "title": "현대차, 1월 美판매 15% 늘어…역대 최대",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "기사에 포함된 주요 정보는 다음과"
+      },
+      {
+        "id": "SAMPLE_01",
+        "title": "삼성SDI, 헝가리 46파이 라인 추진…유럽 고객 타깃",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "**삼성SDI, 헝가"
+      },
+      {
+        "id": "SAMPLE_02",
+        "title": "美, 반도체 투자만 해도 稅혜택 韓, 설비투자만 '찔끔 감면'",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "미국과 한국은 서로 다른 방식"
+      },
+      {
+        "id": "SAMPLE_03",
+        "title": "인공지능 개발의 심장…국가 AI 컴퓨팅센터 2년 내 문 연다",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "국가 AI 컴퓨팅 센터를"
+      },
+      {
+        "id": "SAMPLE_04",
+        "title": "닛산 \"CEO 교체 준비\"…혼다 합병 재시동 촉각",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "niche automobile manufacturer Nissan은 실적 부"
+      },
+      {
+        "id": "SAMPLE_05",
+        "title": "로봇이 조립하고 AI가 검사…다품종 소량생산 최적 체계 구현",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "기사에 대한 요약:\n\n* 국내"
+      },
+      {
+        "id": "SAMPLE_06",
+        "title": "멕시코 거점 韓 기업 한숨 돌렸지만…변동성 예의주시",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 멕시코에 진"
+      },
+      {
+        "id": "SAMPLE_07",
+        "title": "올해 車 판매 1.9% 증가…저성장 기조 계속",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "기사에 포함된 주요 용어 및"
+      },
+      {
+        "id": "SAMPLE_08",
+        "title": "중국도 관세 즉각 맞불…광물수출 막고 美원유 10%P 추가관세",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 중국과 미국의 무역"
+      },
+      {
+        "id": "SAMPLE_09",
+        "title": "현대차, 美 120만대 생산체제 구축…철강·부품·조립까지 현지서 해결",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "기사에 대한 요약:\n\n현대"
+      },
+      {
+        "id": "SAMPLE_10",
+        "title": "트럼프 \"조만간 EU에 25% 관세 부과\"",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 미국 전 대통령 도널드"
+      },
+      {
+        "id": "SAMPLE_11",
+        "title": "AI 사령관, 드디어 참전",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "AI 사령관은 미국 국방부"
+      },
+      {
+        "id": "SAMPLE_12",
+        "title": "광주는 AI 기회의 땅…새 둥지 트는 기업들",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 광주광역시가 인공지"
+      },
+      {
+        "id": "SAMPLE_13",
+        "title": "채비 전기차 충전소, 美 텍사스로 확대",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "이 기사는 채비(CHAEVI)"
+      },
+      {
+        "id": "SAMPLE_14",
+        "title": "자율주행 등 첨단기술 확보 및 미래차 핵심부품 공급망 확충에 5천억 원 투입",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "기사에 대한 요약:\n\n* 정부"
+      },
+      {
+        "id": "SAMPLE_15",
+        "title": "태양광 패키지 이어 배터리 공장도 함께…한화·LG \"UAM도 협력\"",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "**UAM 협력: 한화·"
+      },
+      {
+        "id": "SAMPLE_16",
+        "title": "中 전기차 리서치 지속…가격인하 경쟁 치열",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "중국 전기차 시장이 극심"
+      },
+      {
+        "id": "SAMPLE_17",
+        "title": "올해 10대 제조업 투자 119조 전망…7% 증가",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "기사에 대한 요약:\n\n*"
+      },
+      {
+        "id": "SAMPLE_18",
+        "title": "패스워드 대신 인증키 발행…재사용 불가능 지문·안면 2차 인증…AI로 악성 트래픽 탐지",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 패스워드 대신"
+      },
+      {
+        "id": "SAMPLE_19",
+        "title": "트럼프 \"화성 개척\"... 우주기업株 날았다",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 미국의 도널드 트"
+      },
+      {
+        "id": "SAMPLE_20",
+        "title": "로봇군단 누비는 '긴박한 전장'…AI에 생사 결정권 맡길 각오됐습니까",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "기사에서 제시된 로봇"
+      },
+      {
+        "id": "SAMPLE_21",
+        "title": "현대차 이대로 가면 中자율주행SW 써야할 수도",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "이 기사는 현대자동차가 중국의"
+      },
+      {
+        "id": "SAMPLE_22",
+        "title": "'한국판 IRA' 조세특례제한법 개정안, 국회 본회의 통과",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사에서 사용된 용어와"
+      },
+      {
+        "id": "SAMPLE_23",
+        "title": "한국앤컴퍼니, 한온시스템 인수…30대그룹 첫 진입",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "이 기사는 한국앤컴퍼니가"
+      },
+      {
+        "id": "SAMPLE_24",
+        "title": "車카메라 경쟁력 강화 세계 점유율 1위 도전",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "LG이노텍은 차량용"
+      },
+      {
+        "id": "SAMPLE_25",
+        "title": "코오롱인더, 300억 투자 베트남 타이어코드 증설",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "이 기사는 코오롱인더스트"
+      },
+      {
+        "id": "SAMPLE_26",
+        "title": "한화·LG, 에너지 동맹…\"테슬라 잡자\"",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 한화큐셀과"
+      },
+      {
+        "id": "SAMPLE_27",
+        "title": "불법이민 추방·신재생 중단 … 행정명령 첫날부터 몰아친다",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "미국 행정부가 출범 첫날"
+      },
+      {
+        "id": "SAMPLE_28",
+        "title": "현대차 싱크탱크 \"中BYD 한국 상륙, 절대로 경시해선 안돼\"",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "BYD는 한국에서 상륙하여"
+      },
+      {
+        "id": "SAMPLE_29",
+        "title": "K-방산 총출동…첨단 방공망 선보인다",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 K-방산의 기술"
+      },
+      {
+        "id": "SAMPLE_30",
+        "title": "K9 누적 수출 13조원 돌파…항공기 엔진도 생산, K방산의 핵심으로",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 K9 누적 수출"
+      },
+      {
+        "id": "SAMPLE_31",
+        "title": "AI로 車유리 손상 분석부터 견적까지…'유리픽스' 플랫폼 출시",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "이 기사는 '유리픽스'"
+      },
+      {
+        "id": "SAMPLE_32",
+        "title": "美-中 AI기술 격차, 3개월로 좁혀져",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 미국과 중국 간의 AI"
+      },
+      {
+        "id": "SAMPLE_33",
+        "title": "한자연, 전동화 파워트레인 기술 동향·개발전략 공유",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "이 기사는 한국자동차연구원("
+      },
+      {
+        "id": "SAMPLE_34",
+        "title": "LG엔솔, 美 델타와 주택용 ESS배터리 공급 협력",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "LG에너지솔루션은 미국"
+      },
+      {
+        "id": "SAMPLE_35",
+        "title": "현대차 인스터, 日서 첫 자체 보조금 지원",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "이 기사에서 사용된 Natural Language Processing"
+      },
+      {
+        "id": "SAMPLE_36",
+        "title": "트럼프 \"상호관세 연기 계획 없다\"",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 미국 전 대통령 도날드"
+      },
+      {
+        "id": "SAMPLE_37",
+        "title": "美, 상호관세 2단계로 간다…\"최대 50% '관세 폭탄' 던진 뒤 협상\"",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 미국의 상호관세"
+      },
+      {
+        "id": "SAMPLE_38",
+        "title": "정부, 오사카 엑스포에 韓 독립관 마련",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 정부가 오사카"
+      },
+      {
+        "id": "SAMPLE_39",
+        "title": "포티투닷, 화성에 자율주행 인프라 깐다",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "이 기사는 포티투닷이"
+      },
+      {
+        "id": "SAMPLE_40",
+        "title": "AI 품은 융합로봇, 든든해요",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 \"AI 품은 융"
+      },
+      {
+        "id": "SAMPLE_41",
+        "title": "AI로 무장한 가성비… '대륙의 한수' 무차별 韓침공",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 중국산 가성비 제품"
+      },
+      {
+        "id": "SAMPLE_42",
+        "title": "LG이노텍, 車두뇌 AP모듈 하반기 양산",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "LG이노텍이 \"차량"
+      },
+      {
+        "id": "SAMPLE_43",
+        "title": "글로벌쿼드텍 EVCC, 국내 車 OEM 업체 공급",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "이 기사는 글로벌쿼드"
+      },
+      {
+        "id": "SAMPLE_44",
+        "title": "기아 EV3 '2025 대한민국 올해의 차'에 등극",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "이 기사는 기아의 소형 전"
+      },
+      {
+        "id": "SAMPLE_45",
+        "title": "韓 긍정적 인식 작용…낮은 관세율 기대감",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "이 기사는 한국에 대한 미국의"
+      }
+    ]
+  },
+  {
+    "name": "V2_Gamma_영어",
+    "length": 356,
+    "accuracy": 0.5869565217391305,
+    "correct": 27,
+    "total": 46,
+    "dacon_score": 0.6282393583352286,
+    "errors": [
+      {
+        "id": "SAMPLE_03",
+        "title": "인공지능 개발의 심장…국가 AI 컴퓨팅센터 2년 내 문 연다",
+        "actual": 0,
+        "predicted": 1
+      },
+      {
+        "id": "SAMPLE_05",
+        "title": "로봇이 조립하고 AI가 검사…다품종 소량생산 최적 체계 구현",
+        "actual": 0,
+        "predicted": 1
+      },
+      {
+        "id": "SAMPLE_12",
+        "title": "광주는 AI 기회의 땅…새 둥지 트는 기업들",
+        "actual": 0,
+        "predicted": 1
+      },
+      {
+        "id": "SAMPLE_15",
+        "title": "태양광 패키지 이어 배터리 공장도 함께…한화·LG \"UAM도 협력\"",
+        "actual": 0,
+        "predicted": 1
+      },
+      {
+        "id": "SAMPLE_17",
+        "title": "올해 10대 제조업 투자 119조 전망…7% 증가",
+        "actual": 0,
+        "predicted": 1
+      }
+    ],
+    "detailed_results": [
+      {
+        "id": "SAMPLE_00",
+        "title": "현대차, 1월 美판매 15% 늘어…역대 최대",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_01",
+        "title": "삼성SDI, 헝가리 46파이 라인 추진…유럽 고객 타깃",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_02",
+        "title": "美, 반도체 투자만 해도 稅혜택 韓, 설비투자만 '찔끔 감면'",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_03",
+        "title": "인공지능 개발의 심장…국가 AI 컴퓨팅센터 2년 내 문 연다",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_04",
+        "title": "닛산 \"CEO 교체 준비\"…혼다 합병 재시동 촉각",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_05",
+        "title": "로봇이 조립하고 AI가 검사…다품종 소량생산 최적 체계 구현",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_06",
+        "title": "멕시코 거점 韓 기업 한숨 돌렸지만…변동성 예의주시",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_07",
+        "title": "올해 車 판매 1.9% 증가…저성장 기조 계속",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_08",
+        "title": "중국도 관세 즉각 맞불…광물수출 막고 美원유 10%P 추가관세",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_09",
+        "title": "현대차, 美 120만대 생산체제 구축…철강·부품·조립까지 현지서 해결",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_10",
+        "title": "트럼프 \"조만간 EU에 25% 관세 부과\"",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_11",
+        "title": "AI 사령관, 드디어 참전",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_12",
+        "title": "광주는 AI 기회의 땅…새 둥지 트는 기업들",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_13",
+        "title": "채비 전기차 충전소, 美 텍사스로 확대",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_14",
+        "title": "자율주행 등 첨단기술 확보 및 미래차 핵심부품 공급망 확충에 5천억 원 투입",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_15",
+        "title": "태양광 패키지 이어 배터리 공장도 함께…한화·LG \"UAM도 협력\"",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_16",
+        "title": "中 전기차 리서치 지속…가격인하 경쟁 치열",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_17",
+        "title": "올해 10대 제조업 투자 119조 전망…7% 증가",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_18",
+        "title": "패스워드 대신 인증키 발행…재사용 불가능 지문·안면 2차 인증…AI로 악성 트래픽 탐지",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_19",
+        "title": "트럼프 \"화성 개척\"... 우주기업株 날았다",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_20",
+        "title": "로봇군단 누비는 '긴박한 전장'…AI에 생사 결정권 맡길 각오됐습니까",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_21",
+        "title": "현대차 이대로 가면 中자율주행SW 써야할 수도",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_22",
+        "title": "'한국판 IRA' 조세특례제한법 개정안, 국회 본회의 통과",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_23",
+        "title": "한국앤컴퍼니, 한온시스템 인수…30대그룹 첫 진입",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_24",
+        "title": "車카메라 경쟁력 강화 세계 점유율 1위 도전",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_25",
+        "title": "코오롱인더, 300억 투자 베트남 타이어코드 증설",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_26",
+        "title": "한화·LG, 에너지 동맹…\"테슬라 잡자\"",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_27",
+        "title": "불법이민 추방·신재생 중단 … 행정명령 첫날부터 몰아친다",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_28",
+        "title": "현대차 싱크탱크 \"中BYD 한국 상륙, 절대로 경시해선 안돼\"",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_29",
+        "title": "K-방산 총출동…첨단 방공망 선보인다",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_30",
+        "title": "K9 누적 수출 13조원 돌파…항공기 엔진도 생산, K방산의 핵심으로",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_31",
+        "title": "AI로 車유리 손상 분석부터 견적까지…'유리픽스' 플랫폼 출시",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_32",
+        "title": "美-中 AI기술 격차, 3개월로 좁혀져",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_33",
+        "title": "한자연, 전동화 파워트레인 기술 동향·개발전략 공유",
+        "actual": 1,
+        "predicted": 0,
+        "correct": false,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_34",
+        "title": "LG엔솔, 美 델타와 주택용 ESS배터리 공급 협력",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_35",
+        "title": "현대차 인스터, 日서 첫 자체 보조금 지원",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_36",
+        "title": "트럼프 \"상호관세 연기 계획 없다\"",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_37",
+        "title": "美, 상호관세 2단계로 간다…\"최대 50% '관세 폭탄' 던진 뒤 협상\"",
+        "actual": 0,
+        "predicted": 0,
+        "correct": true,
+        "response": "0"
+      },
+      {
+        "id": "SAMPLE_38",
+        "title": "정부, 오사카 엑스포에 韓 독립관 마련",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_39",
+        "title": "포티투닷, 화성에 자율주행 인프라 깐다",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_40",
+        "title": "AI 품은 융합로봇, 든든해요",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_41",
+        "title": "AI로 무장한 가성비… '대륙의 한수' 무차별 韓침공",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_42",
+        "title": "LG이노텍, 車두뇌 AP모듈 하반기 양산",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_43",
+        "title": "글로벌쿼드텍 EVCC, 국내 車 OEM 업체 공급",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_44",
+        "title": "기아 EV3 '2025 대한민국 올해의 차'에 등극",
+        "actual": 1,
+        "predicted": 1,
+        "correct": true,
+        "response": "1"
+      },
+      {
+        "id": "SAMPLE_45",
+        "title": "韓 긍정적 인식 작용…낮은 관세율 기대감",
+        "actual": 0,
+        "predicted": 1,
+        "correct": false,
+        "response": "1"
+      }
+    ]
+  }
+]

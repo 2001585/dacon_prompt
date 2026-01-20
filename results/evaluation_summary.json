@@ -1,0 +1,153 @@
+{
+  "evaluation_date": "2025-01-15",
+  "evaluation_method": {
+    "dataset": "data/samples.csv",
+    "sample_count": 46,
+    "scoring_formula": "0.9 * accuracy + 0.1 * length_score",
+    "length_score_formula": "max(0, 1 - (length-300)/2700) if length > 300 else 1"
+  },
+  "prompts_evaluated": [
+    {
+      "name": "김경태_원본",
+      "length": 575,
+      "features": ["수학기호 사용", "∈, ∧ 포함", "검증된 버전"],
+      "self_evaluation": {
+        "accuracy": 0.8478,
+        "length_score": 0.8981,
+        "final_score": 0.8528
+      },
+      "actual_dacon_score": 0.9801,
+      "score_difference": 0.1273,
+      "status": "confirmed"
+    },
+    {
+      "name": "안전1_수학기호제거",
+      "length": 591,
+      "features": ["수학기호 제거", "∈→가, ∧→와", "원본 구조 유지"],
+      "self_evaluation": {
+        "accuracy": 0.8478,
+        "length_score": 0.8922,
+        "final_score": 0.8522
+      },
+      "actual_dacon_score": 0.9800,
+      "score_difference": 0.1278,
+      "status": "confirmed"
+    },
+    {
+      "name": "Lv1_보수적",
+      "length": 560,
+      "features": ["보수적 압축", "핵심 유지", "안전성 우선"],
+      "self_evaluation": {
+        "accuracy": 0.8261,
+        "length_score": 0.9037,
+        "final_score": 0.8338
+      },
+      "expected_dacon_score": [0.978, 0.981],
+      "status": "pending"
+    },
+    {
+      "name": "Lv2_균형",
+      "length": 540,
+      "features": ["균형 압축", "최적화", "추천 버전"],
+      "self_evaluation": {
+        "accuracy": 0.8261,
+        "length_score": 0.9111,
+        "final_score": 0.8347
+      },
+      "expected_dacon_score": [0.979, 0.982],
+      "status": "pending",
+      "recommended": true
+    },
+    {
+      "name": "Lv3_적극",
+      "length": 520,
+      "features": ["적극 압축", "리스크 있음", "도전적"],
+      "self_evaluation": {
+        "accuracy": 0.8043,
+        "length_score": 0.9185,
+        "final_score": 0.8157
+      },
+      "expected_dacon_score": [0.975, 0.978],
+      "status": "pending"
+    }
+  ],
+  "common_failure_patterns": [
+    {
+      "sample_id": 13,
+      "title": "배터리 소재 업체, 전기차 시장 겨냥 대규모 투자",
+      "actual_label": 1,
+      "predicted_label": 0,
+      "issue": "차량용 미명시",
+      "failed_by_all": true
+    },
+    {
+      "sample_id": 27,
+      "title": "현대중공업, 조선 부문 수주 역대 최대",
+      "actual_label": 0,
+      "predicted_label": 1,
+      "issue": "현대 이름 혼동",
+      "failed_by_all": true
+    },
+    {
+      "sample_id": 35,
+      "title": "AI 반도체 기업, 자율주행 칩 개발 본격화",
+      "actual_label": 1,
+      "predicted_label": 0,
+      "issue": "반도체 중심 판단",
+      "failed_by_all": true
+    }
+  ],
+  "key_findings": {
+    "sample_vs_actual_gap": {
+      "sample_accuracy": 0.83,
+      "actual_accuracy": 0.98,
+      "difference": 0.15,
+      "reason": "실제 테스트 데이터가 더 명확한 케이스 위주"
+    },
+    "math_symbols_impact": {
+      "with_symbols": 0.9801,
+      "without_symbols": 0.9800,
+      "difference": 0.0001,
+      "conclusion": "GPT-4o mini는 수학 기호 처리 문제 있음"
+    },
+    "optimal_length": {
+      "range": [540, 560],
+      "best_balance": 540,
+      "risk_threshold": 520
+    }
+  },
+  "critical_elements_to_maintain": [
+    "출력 형식: \"1\" 또는 \"0\"만 (따옴표 필수)",
+    "공급계약 (풀네임 유지)",
+    "차종, OEM, IVI 키워드",
+    "완전한 판정 조건",
+    "A와 Act 동시 출현 체크"
+  ],
+  "recommendation": {
+    "priority_order": [
+      {
+        "rank": 1,
+        "name": "Lv2_균형",
+        "reason": "최적 균형",
+        "expected_score": [0.979, 0.982]
+      },
+      {
+        "rank": 2,
+        "name": "Lv1_보수적",
+        "reason": "안전한 선택",
+        "expected_score": [0.978, 0.981]
+      },
+      {
+        "rank": 3,
+        "name": "안전1",
+        "reason": "검증된 버전",
+        "expected_score": 0.980
+      }
+    ],
+    "avoid": {
+      "name": "Lv3_적극",
+      "reason": "정확도 하락 리스크",
+      "expected_score": [0.975, 0.978]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(tree:*)",
+      "WebSearch",
+      "Bash(py:*)",
+      "Bash(/c/Users/BI/AppData/Local/Microsoft/WindowsApps/python v2_500char_experiments.py)",
+      "Bash(/c/Users/BI/AppData/Local/Microsoft/WindowsApps/python local_llm_evaluation.py)",
+      "Read(//c/Users/BI/AppData/Local/Microsoft/WindowsApps//**)",
+      "Read(//c//**)",
+      "Bash(where.exe:*)",
+      "Bash(cmd.exe /c python --version)",
+      "Bash(findstr:*)",
+      "Read(//c/**)",
+      "Bash(/c/Python313/python.exe --version)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe --version)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe local_llm_evaluation.py)",
+      "Bash(timeout:*)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe test_lm_studio.py)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe analyze_results.py)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe detailed_sample_analysis.py)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe improved_prompts_for_llama.py)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe quick_gate_test.py)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe mini_gate_test.py)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe english_prompts_test.py)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe ultra_quick_test.py)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe qwen_test.py)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe qwen_full_test.py)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe safe_high_score_prompts.py)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe reverse_calculate_1st_place.py)",
+      "Bash(/c/Users/BI/Desktop/researcherhoons/.venv/Scripts/python.exe reverse_calculate_1st_place.py)",
+      "Bash(/c/Users/BI/Desktop/researcher/hoons/.venv/Scripts/python.exe test_radical_approaches.py)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
